@@ -1,0 +1,242 @@
+@media screen and (min-width:768px){
+
+
+
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/*********Navbar********/
+.navbar > .container-fluid > .navbar-header > .navbar-brand > .img-responsive{
+  height: 20px;
+  width: 40x;
+}
+
+
+
+
+
+/************Jumbotron****/
+.jumbotron{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+  background: url("../img/skyline.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.jumbotron > .overlay{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.headline{
+  max-width: 50%;
+  max-height: 50%;
+  font-family: 'Raleway', sans-serif;
+  display:none;
+  margin: 300px auto 0;
+  font-size: 2.4em;
+  border: 1px solid #fff;
+  color: #fff;
+  /**border: 1px solid #fff;*/
+}
+
+.second-headline{
+  font-family: 'Raleway', sans-serif;
+  display: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.glyphicon{
+  display: none;
+  font-size: 2em;
+  color: #fff;
+  margin: 20% 50% 0 50%;
+}
+
+/*********ABOUT***********/
+.about > .container-fluid > .row .left-side > .shorter{
+  display: none;
+
+  }
+.about{
+  height: 100%;
+  width: 100%;
+  }
+
+  .shorter{
+  width: 20%;
+  }
+
+.col-sm-6{
+padding:0;
+}
+.left-side{
+  height: 700px !important;
+  height: 100%;
+  background: url("../img/movies.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.right-side{
+  margin-top: 10%;
+}
+
+.right-side > p{
+  margin-bottom: 10%;
+  padding: 0 5%;
+}
+
+.leftOverlay{
+  margin-top: 0;
+  padding: 10%;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.leftOverlay > h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  padding: 50% 40%;
+  margin: auto;
+}
+/*********products******/
+.products{
+  margin-top: 10%;
+  max-width: 100%;
+}
+.products > hr{
+  display: none;
+}
+
+.hideme{
+  opacity: 0;
+
+}
+.firetv{
+d
+}
+.firestick{
+
+}
+.rasp{
+
+}
+.products > .container-fluid > .nvidia > .row > .col-md-6 > p{
+  margin:0;
+}
+.products > .container-fluid > .firetv > .row > .col-md-6 > p{
+  margin:0;
+}
+.products > .container-fluid > .firestick > .row > .col-md-6 > p{
+  margin:0;
+}
+.products > .container-fluid > .rasp > .row > .col-md-6 > p{
+  margin:0;
+}
+.products > .container-fluid > .text-center{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+}
+
+/*****contact***/
+.contact{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10%;
+}
+
+.contact > .container-fluid > .myoverlay > .text-center{
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact > .container-fluid > .myoverlay > .shorter{
+  display: none;
+
+}
+
+.contact > hr{
+  display: none;
+}
+.contact-background{
+  background: url("../img/contact_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myoverlay{
+  height: 100%;
+  width: 100%;
+
+}
+
+.contact-background > .myoverlay > h2{
+  color: #fff;
+
+}
+.contact-background > .myoverlay > p{
+  color: #fff;
+
+}
+.form-group{
+  height: 400px;
+  max-width: 50%;
+  margin: auto;
+  width:50%;
+  margin-bottom:10%;
+  padding:2% 10%;
+  background:rgba(0, 0, 0, 0.5);;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px #000;
+  border-radius: 4px 4px;
+
+}
+.form-group > form {
+
+}
+
+.form-group > label{
+  padding-top:5%;
+  margin-top: 2%;
+}
+
+.form-group > label{
+  color:#fff;
+  box-shadow: 1px solid #000;
+}
+
+.form-group > .form-control{
+  box-shadow: 2px 2px;
+  border-radius: 4px 4px;
+}
+
+.btn{
+  width: 100%;
+  margin: 10% auto;
+}
+
+/******footer*******/
+
+
+}
